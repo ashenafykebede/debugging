@@ -18,7 +18,7 @@ console.log('-- begin --');
   how many can you find?
   what do all the correct answers have in common?
 */
-let sum = _;
+let sum = 1; //possible answers 1,2,3,4,7,8,15,31,32,63,64....
 
 while (sum < 100) {
   if (sum % 2 === 0) {

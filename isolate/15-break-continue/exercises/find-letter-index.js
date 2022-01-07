@@ -4,14 +4,14 @@
 console.log('-- begin --');
 
 const word = 'pitsicola';
-const targetLetter = _;
+const targetLetter = 'c';
 
 let index = 0;
 while (true) {
   const nextLetter = word[index];
   console.log(index + ': ' + nextLetter);
   if (nextLetter === targetLetter) {
-    _;
+    break;
   }
 
   index += 1;

@@ -11,5 +11,14 @@ for (let i = minutesLeft; i > 0; i--) {
 }
 
 // refactor this for loop to a while loop
+let j = minutesLeft;
+while(true){
+  const message = `${j} minutes left`;
+  console.log(message);
+   j--;
+    if(j<1){
+     break;
+  }
+}
 
 console.log('-- end --');
