@@ -4,10 +4,10 @@
 console.log('-- begin --');
 
 /**
- * _
+ * Checks if a text reads the same left to write and right to left (reversed)
  *
- * @_ {_} [_=_] - _
- * @_ {_}  _
+ * @param {string} [toCheck=''] - text to be checkd for palindrome _
+ * @return {boolean}  - True if string is palindrome and false otherwise.
  */
 const isPalindrome = (toCheck = '') => {
   let reversed = '';

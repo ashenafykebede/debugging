@@ -4,6 +4,9 @@
 console.log('-- begin --');
 
 /**
+ * a function that shuffles given characters based on an offset value.
+ * @param {string}[text=''] - a text with some charaters to be shuffled
+ * @param {number}[shift=0] - an offset value used to shuffle the unicode characters
  *
  */
 const unicodeShuffle = (text = '', shift = 0) => {

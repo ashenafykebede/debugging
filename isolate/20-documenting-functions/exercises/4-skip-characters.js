@@ -4,7 +4,11 @@
 console.log('-- begin --');
 
 /**
+ * - Skips characters in a text based on a condition
  *
+ * @param {string} [text = ''] - text with arbitrary length
+ * @param {number} [toSkip = 1] - a divisor for the modulo based condition
+ * @retun [string] -  skipified text
  */
 const skipCharacters = (text = '', toSkip = 1) => {
   if (toSkip < 1) {

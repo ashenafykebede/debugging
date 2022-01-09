@@ -12,7 +12,8 @@ const findTheType = (param) => {
   return result;
 };
 
-// what happens if you uncomment the extra console.logs below?
+/* what happens if you uncomment the extra console.logs below?
+ answer: Since their scope is limited to the function, nothing will happen*/
 
 console.log('-- example 1 --');
 const arg1 = 5;
