@@ -4,7 +4,7 @@
 console.log('-- begin --');
 
 /**
- * Counts the number of characters in a text which are exactly the same as given by the toCount.
+ * Counts the number of characters in a text
  *
  * @param {string} [text=''] - text with/without the desired character
  * @param {string} [toCount=''] - the character to be counted
